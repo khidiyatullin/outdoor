@@ -27,7 +27,6 @@ a:hover{
 }
 /* -------------------------- Header -------------------------- */
 header{
-    width: 1440px;
     height: 79px;
     padding: 0 136px 0 136px;
     background-color: white; 
@@ -97,7 +96,6 @@ header .CartHeaderA p{
 }
 /* -------------------------- Section 1 -------------------------- */
 .Sec1Div{
-    width: 1440px;
     height: 640px;
     background-image: url(../images/BgFirstSec.png);
     padding-left: 136px;
