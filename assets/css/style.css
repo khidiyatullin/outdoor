@@ -1,0 +1,688 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+/* -------------------------- Header -------------------------- */
+header{
+    width: 1440px;
+    height: 79px;
+    padding: 0 136px 0 136px;
+    background-color: white; 
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    position: fixed;
+}
+.logoHeader{
+    width: 128px;
+    height: 39px;
+}
+header ul li{
+    list-style-type: none;
+    font-size: 13px;
+    font-weight: 400;
+    display: inline;
+}
+header ul li:hover{
+    transform: scale(1.1);
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+    width: 460px;
+    margin-left: 252px;
+}
+header a{
+    color: #444444;
+}
+header .BuyTemplate{
+    padding: 10px 18px 11px 18px;
+    background-color: #575445;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+    margin-left: 40px;
+    align-self: flex-end;
+    margin: 0 20px 17px 40px;
+}
+header .CartHeaderA{
+    display: flex;
+    padding: 13px 18px;
+    background-color: #575445;
+    width: 125px;
+    height: 44px;
+    justify-content: space-between;
+    color: white;
+    font-weight: 400;
+    border-radius: 6px;
+    align-self: flex-end;
+    margin-bottom: 17px;
+}
+header .CartHeaderA div{
+    display: flex;
+    color: #575445;
+    font-size: 11px;
+    background-color: white;
+    width: 20px;
+    height: 18px;
+    border-radius: 9px;
+    padding: 2px 0 0 6px;
+}
+header .CartHeaderA p{
+    margin-top: -3px;
+}
+/* -------------------------- Section 1 -------------------------- */
+.Sec1Div{
+    width: 1440px;
+    height: 640px;
+    background-image: url(../images/BgFirstSec.png);
+    padding-left: 136px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.OutDoorPMain{
+    text-transform: uppercase;
+    color: #e6b939;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.LoremMain{
+    width: 473px;
+    color: white;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    color: white;
+    width: 357px;
+    font-weight: 400;
+    line-height: 57.6px;
+    margin-bottom: 9px;
+}
+/* -------------------------- Section 2 -------------------------- */
+.Sec2Div{
+    width: 1440px;
+    height: 804px;
+    background-image: url(../images/BgSecondSec.png);
+    margin-top: -28px;
+    display: flex;
+    padding: 128px 0 100px 136px;
+}
+.Sec2Div div{
+    margin-left: 104px;
+    align-self: center;
+}
+.Sec2Div p{
+    font-family: "Poppins", sans-serif;
+}
+h2{
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #575445;
+}
+.WhoAreWeText{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.WeAreLorem{
+    width: 384px;
+    color: #575445;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    margin-top: 8px;
+}
+.Sec2Div a{
+    color: #575445;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    width: 109px;
+    font-family: "Poppins", sans-serif;
+    margin-top: 20px;
+}
+.ArrowImage{
+    margin-left: 6px;
+}
+.ImageSec2{
+    width: 576px;
+    height: 576px;
+}
+/* -------------------------- Section 3 -------------------------- */
+.Sec3Div{
+    width: 1440px;
+    height: 900px;
+    background-image: url(../images/BgThirdSec.png);
+    padding: 100px 187px 0 187px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.RowSec3{
+    display: flex;
+    justify-content: space-between;
+    font-family: serif;
+    font-family: "Poppins", sans-serif;
+    color: #575445;
+    font-weight: 400;
+}
+.RowSec3 div{
+    width: 287px;
+    margin-bottom: 110px;
+}
+.FirstTextInRow{
+    font-size: 20px;
+}
+.SecondTextInRow{
+    width: 287px;
+    font-size: 14px;
+}
+.Sec3Morbi{
+    width: 524px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575445;
+    align-self: center;
+    margin: 7px 0 71px 0;
+}
+.PromisesText{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e6b939;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+/* -------------------------- Section 4 -------------------------- */
+.Sec4Div{
+    width: 1440px;
+    height: 1353px;
+    background-color: white;
+    padding: 100px 136px 0 136px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.RowSec4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 16px;
+}
+.RowSec4 div{
+    width: 379px;
+    height: 473px;
+    display: flex;
+    flex-direction: column;
+}
+.RowSec4 p{
+    font-family: "Poppins", sans-serif;
+    color: #575445;
+    line-height: 22.4px;
+    font-size: 16px;
+}
+.RowSec4 a{
+    font-family: "Poppins", sans-serif;
+    color: #575445;
+    line-height: 22.4px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.RowSec4 a img{
+    margin-left: 9px;
+}
+.RowSec4 a:hover{
+    transform: scale(1.1);
+}
+.RowSec4 div h3{
+    font-size: 28px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: #575445;
+    margin: 39px 0 9px 0;
+}
+.MeetFamily{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    color: #e6b939;
+    letter-spacing: 2px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.MorbiSec4{
+    width: 524px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    color: #575445;
+    margin: 7px 0 21px 0;
+    align-self: center;
+}
+.ImgAccesories{
+    background-image: url(../images/Accesories.png);
+    border-radius: 10px;
+}
+.ImgAccesories p{
+    width: 228px;
+    align-self: center;
+}
+.ImgApparel{
+    background-image: url(../images/Apparel.png);
+    border-radius: 10px;
+}
+.ImgApparel p{
+    width: 210px;
+    align-self: center;
+}
+.ImgClimbingGear{
+    background-image: url(../images/ClimbingGear.png);
+    border-radius: 10px;
+}
+.ImgHeadwear{
+    background-image: url(../images/HeadWear.png);
+    border-radius: 10px;
+}
+.ImgHeadwear p{
+    width: 245px;
+    align-self: center;
+}
+.ImgHikingGear{
+    background-image: url(../images/Hiking.png);
+    border-radius: 10px;
+}
+.ImgJackets{
+    background-image: url(../images/Jackets.png);
+    border-radius: 10px;
+}
+.ImgJackets p{
+    width: 262px;
+    align-self: center;
+}
+.ShowAll{
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #575445;
+}
+.ShowAll:hover{
+    transform: scale(1.1);
+}
+.GrayArrowUnderRowSec4{
+    margin-left: 11px;
+}
+/* -------------------------- Section 5 -------------------------- */
+.Sec5Div{
+    width: 1440px;
+    height: 600px;
+    background-image: url(../images/BgFifthSec.png);
+    font-family: "Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 241px 40px 40px 0;
+}
+.Sec5Div:hover{
+    background-image: url(../images/BgFifthSecBlack.png);
+}
+.Sec5Div:hover .MainTextSec5{
+    visibility: visible;
+}
+.Sec5Div:hover .LowerTextsSec5{
+    visibility: visible;
+}
+.ArrowWhite{
+    margin-left: 6px;
+}
+.ReadMoreSec5{
+    font-size: 15px;
+    color: white;
+}
+.BirdsEye{
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.DroneView{
+    width: 272px;
+    margin: 10px 0 9px 0;
+}
+.MainTextSec5{
+    margin-right: 48px;
+    visibility: hidden;
+}
+.LowerTextsSec5{
+    display: flex;
+    width: 615px;
+    height: 48px;
+    background-color: #292c32;
+    border-radius: 16px;
+    margin-top: 135px;
+    visibility: hidden;
+    padding: 16px 27px 16px 22px;
+    justify-content: space-between;
+    font-size: 12px;
+    color: white;
+    font-weight: 400;
+}
+/* -------------------------- Section 6 -------------------------- */
+.Sec6Div{
+    width: 1440px;
+    height: 393px;
+    background-image: url(../images/BgSixthSec.png);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 100px;
+}
+.MorbiSec6{
+    width: 538px;
+    color: #fafafc;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    margin: 7px 0 21px 0;
+    align-self: center;
+}
+.Shop{
+    letter-spacing: 2px;
+    color: white;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+}
+#H2Sec6{
+    color: #e6b939;
+}
+.VisitShop{
+    color: #575445;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 18px 11px 18px;
+    background-color: white;
+    border-radius: 6px;
+    width: 111px;
+    height: 44px;
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+}
+/* -------------------------- Section 7 -------------------------- */
+.Sec7Div{
+    width: 1440px;
+    height: 743px;
+    padding: 100px 136px 0 136px;
+    display: flex;
+    flex-direction: column;
+}
+.BuyersGuides{
+    letter-spacing: 2px;
+    color: #e6b939;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.MorbiSec7{
+    width: 520px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #575445;
+    margin: 7px 0 21px 0;
+}
+.Images7Sec{
+    display: flex;
+    justify-content: space-between;
+}
+.Images7Sec img{
+    width: 568px;
+    height: 319px;
+    margin-bottom: 18px;
+}
+.AccesoriesSec7{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #575445;
+    display: flex;
+}
+.AccesoriesSec7 p{
+    width: 433px;
+}
+.BikingAccessoriesTextSec7{
+    margin-left: 167px;
+}
+.WorkerDiv{
+    display: flex;
+    align-items: center;
+}
+.MainWorkerDiv{
+    display: flex;
+    margin-top: 12px;
+}
+.DateSec7{
+    font-size: 13px;
+    color: #6F7278; 
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.WorkerDiv div{
+    margin-left: 12px;
+}
+.NameSec7{
+    font-size: 13px;
+    font-weight: 400;
+    color: #575445;
+    font-family: "Roboto", sans-serif;
+}
+.WorkingSec7{
+    font-size: 11px;
+    font-weight: 400;
+    color: #e6b939;
+    font-family: "Poppins", sans-serif;
+}
+.FirstDateSec7{
+    margin-right: 32px;
+    margin-left: 338px;
+}
+.SecondDateSec7{
+    margin-left: 306px;
+}
+.ShowGuidesSec7{
+    width: 206px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-top: 26px;
+    font-size: 15px;
+    color: #575445;
+    align-self: center;
+}
+.ShowGuidesSec7 img{
+    margin-left: 12px;
+}
+/* -------------------------- Section 8 -------------------------- */
+.Sec8Div{
+    width: 1440px;
+    height: 875px;
+    background-image: url(../images/SubscribeTodayBg.png);
+    padding: 353px 240px 251px 816px;
+    display: flex;
+    flex-direction: column;
+}
+.Sec8Div a img{
+    margin-left: 6px;
+}
+.Sec8Div a{
+    font-size: 15px;
+    font-weight: 400;
+    color:#575445;
+    font-family: "Poppins", sans-serif;
+}
+.SomeLight{
+    letter-spacing: 2px;
+    color: #e6b939;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+.LoremSec8{
+    color: #575445;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 7px 0 20px 0;
+}
+/* -------------------------- Footer -------------------------- */
+footer{
+    width: 1440px;
+    height: 567px;
+    background-color: #575445;
+    padding: 100px 136px 0 136px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+.LogoFooter{
+    align-self: center;
+}
+footer ul li{
+    list-style-type: none;
+    margin-top: 9px;
+    font-size: 14px;
+    font-weight: 400;
+}
+footer div{
+    display: flex;
+}
+footer a{
+    color: white;
+}
+.firstUlFooter{
+    margin-right: 100px;
+}
+.SecondUlFooter{
+    margin-right: 75px;
+}
+.FooterDiv{
+    margin-top: 76px;
+}
+.LastUlFooter{
+    margin-right: 149px;
+}
+.InputFooter{
+    padding-left: 5px;
+    color: #6F7278;
+    font-size: 16px;
+    font-weight: 400;
+    width: 458px;
+    height: 53px;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+}
+input::-webkit-input-placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6F7278;
+    padding-left: 34px;
+}
+.Subscription{
+    display: flex;
+    flex-direction: column;
+}
+.newsletterText{
+    color: #e6b939;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+}
+.SubscriptionText{
+    color: #fafafc;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 450px;
+}
+.InputEmail a{
+    font-size: 16px;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: #575445;
+    width: 73px;
+    height: 39px;
+    margin: 7px 0 0 -80px;
+}
+.UnderUlAndInput{
+    margin-top: 30px;
+    display: flex;
+    color: white;
+}
+.UnderUlAndInput img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+}
+.UnderUlAndInput div{
+    display: flex;
+    margin-left: 553px;
+}
+.UnderUlAndInput img:hover{
+    transform: scale(1.2);
+}
+#CompaniLiFooter{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#GearCategoriesLiFooter{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#PagesLiFooter{
+    color: #e6b939;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
